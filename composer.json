@@ -1,0 +1,24 @@
+{
+    "name": "ivanaraujo50/buscador-cursos",
+    "description": "Projeto que busca os cursos no site da Alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ivan Araújo",
+            "email": "ivan.araujoosilva@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "symfony/dom-crawler": "^7.1.5",
+        "symfony/css-selector": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alura\\BuscadorDeCursos\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.4"
+    }
+}
